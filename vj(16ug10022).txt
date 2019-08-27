@@ -1,0 +1,21 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a=[1,2,"hello",6,7,8,-9,7.1]
+>>> a
+[1, 2, 'hello', 6, 7, 8, -9, 7.1]
+>>> a[0]
+1
+>>> a[4]
+7
+>>> a[3]
+6
+>>> a[2]
+'hello'
+>>> a[0:5]
+[1, 2, 'hello', 6, 7]
+>>> a[-1]
+7.1
+>>> len(a)
+8
+>>> 
