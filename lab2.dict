@@ -1,0 +1,42 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> my_dict ={'name':'viji','age':19}
+>>> 
+[DEBUG ON]
+>>> 
+[DEBUG OFF]
+>>> 
+[DEBUG ON]
+>>> 
+[DEBUG OFF]
+>>> 
+[DEBUG ON]
+>>> 
+[DEBUG OFF]
+>>>
+>>> print(my_dict['name'])
+viji
+>>> print(my_dict['age'])
+19
+>>> my_dict['address']:'bellary'
+>>> print(my_dict['address'])
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    print(my_dict['address'])
+KeyError: 'address'
+>>> print(my_dict)
+{'name': 'viji', 'age': 19}
+>>> my_dict['address']: 'bellary'
+>>> print(my_dict['address'])
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    print(my_dict['address'])
+KeyError: 'address'
+>>> my_dict['address']: 'bellary'
+>>> print(my_dict['address'])
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    print(my_dict['address'])
+KeyError: 'address'
+>>> 
